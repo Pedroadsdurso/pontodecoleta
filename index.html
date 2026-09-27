@@ -74,14 +74,10 @@
           </div><span class="badge">PASSO A PASSO</span>
         </div>
         <div class="video-container">
-          <!-- Para ativar: adicione tutorial.mp4, troque data-src por src, remova hidden do vídeo e remova video-placeholder. -->
-          <video controls playsinline preload="none" poster="tutorial-poster.svg" hidden
+          <video controls playsinline preload="metadata"
             aria-label="Tutorial de instalação">
-            <source data-src="tutorial.mp4" type="video/mp4">Seu navegador não suporta a reprodução de vídeo.
+            <source src="tutorial.mp4" type="video/mp4">Seu navegador não suporta a reprodução de vídeo.
           </video>
-          <div class="video-placeholder"><img src="tutorial-poster.svg"
-              alt="Ilustração de um celular com as etapas de instalação do aplicativo" width="800" height="450"><span
-              class="video-status">Tutorial em vídeo: em breve</span></div>
         </div>
         <p class="video-caption"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7" />
